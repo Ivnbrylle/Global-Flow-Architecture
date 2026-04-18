@@ -2,6 +2,12 @@
 
 Terraform-based infrastructure for the Global Flow Architecture project.
 
+## Architecture Reference
+
+Use the diagram below as the visual reference for this deployment:
+
+![Multi-Region Serverless API Architecture](assets/Project-Global-Flow-Diagram.jpg)
+
 ## Git Hygiene for Terraform
 
 Commit these files:
