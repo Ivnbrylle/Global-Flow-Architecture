@@ -1,0 +1,47 @@
+# Terraform local artifacts
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Keep lock file tracked for reproducible providers
+# .terraform.lock.hcl
+
+# Sensitive variable files
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Generated deployment artifacts
+modules/serverless_api/lambda_function_payload.zip
+
+# Terraform CLI config (may contain credentials)
+.terraformrc
+terraform.rc
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc.*
+.venv/
+venv/
+env/
+ENV/
+
+# Environment files
+.env
+.env.*
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
